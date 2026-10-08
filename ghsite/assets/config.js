@@ -7,7 +7,7 @@
 window.TERRA = {
   version: "1.0.5",
   releaseDate: "2026-10-05",
-  launcherUrl: "https://github.com/TheProtoType-CMD/terrabloque/releases/download/v2.0.0/TerraLauncher-Setup-2_0_0.exe",
+  launcherUrl: "https://github.com/TheProtoType-CMD/Terrabloque/releases/download/v2.0.0/TerraLauncher-Setup-2_0_0.exe",
   launcherFileName: "TerraLauncher-Setup-2_0_0.exe",
   launcherSize: "79.9 MB",
   launcherPlatforms: "Windows (.exe installer)",
