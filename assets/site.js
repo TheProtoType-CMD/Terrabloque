@@ -32,10 +32,7 @@
     var T=window.TERRA,st=document.getElementById('dlStatus');
     if(T.launcherUrl){
       b.href=T.launcherUrl;b.removeAttribute('aria-disabled');b.removeAttribute('tabindex');
-      if(T.launcherFileName)b.setAttribute('download',T.launcherFileName);
-      b.querySelector('small').textContent=[T.launcherFileName,T.launcherSize].filter(Boolean).join(' - ')||'Terrabloque '+T.version;
       if(st)st.textContent='';
-      var p=document.getElementById('dlPlat');if(p&&T.launcherPlatforms)p.textContent=T.launcherPlatforms;
     }else{
       b.addEventListener('click',function(e){e.preventDefault()});
     }
